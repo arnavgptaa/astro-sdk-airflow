@@ -36,6 +36,6 @@ Note: Running 'astro dev start' will start your project with the Airflow Webserv
 
 3. Access the Airflow UI for your local Airflow project. To do so, go to http://localhost:8080/ and log in with 'admin' for both your Username and Password.
 
-
-![DAG](DAG.png)
  -->
+![DAG](DAG.png)
+
