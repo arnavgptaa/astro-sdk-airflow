@@ -1,4 +1,4 @@
-Overview
+<!-- Overview
 ========
 
 Welcome to Astronomer! This project was generated after running 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
@@ -36,6 +36,6 @@ Note: Running 'astro dev start' will start your project with the Airflow Webserv
 
 3. Access the Airflow UI for your local Airflow project. To do so, go to http://localhost:8080/ and log in with 'admin' for both your Username and Password.
 
-You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
 
 ![DAG](DAG.png)
+ -->
