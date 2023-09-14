@@ -5,7 +5,7 @@ from pandas import DataFrame
 
 from astro import sql as aql
 from astro.files import File
-from astro. sql.table import Table
+from astro.sql.table import Table
 
 S3_FILE_PATH = "s3://marcl-astrosdk"
 S3_CONN_ID = "aws_default"
@@ -26,7 +26,7 @@ def join_orders_customers(filtered_orders_table: Table, customers_table: Table):
     FROM {{filtered_orders_table}} f JOIN {{customers_table}} c
     ON f.customer_id = c.customer_id"""
 
-@aql. dataframe
+@aql.dataframe
 def transform_dataframe(df: DataFrame):
     purchase_dates = df.loc[:, "purchase_date"]
     print("purchase dates:", purchase_dates)
